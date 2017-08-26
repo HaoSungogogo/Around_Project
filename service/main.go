@@ -33,7 +33,7 @@ const (
 	PROJECT_ID = "carbon-trilogy-176123"
 	BT_INSTANCE = "around-post"
 	// Needs to update this URL if you deploy it to cloud.
-	ES_URL = "http://34.212.51.197:9200"
+	ES_URL = "http://34.210.33.250:9200"
 )
 
 
@@ -211,5 +211,3 @@ func handlerSearch(w http.ResponseWriter, r *http.Request) {
 	w.Write(js)
 
 }
-
-
